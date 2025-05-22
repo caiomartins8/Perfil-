@@ -1,0 +1,80 @@
+body {
+    background-image: url('pexels-ann-h-45017-1762851.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+#main {
+    background-color: rgb(108, 160, 255);
+    width: 720px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+#main:hover {
+    transform: scale(0.9);
+}
+
+#main * {
+    transition: transform 0.5s ease-in-out;
+}
+
+#main *:hover {
+    transform: scale(1.1);
+}
+
+#nome {
+    font-size: 43px;
+    color: rgb(248, 207, 103);
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+#img img {
+    width: 230px;
+    height: 220px;
+    object-fit: cover;
+}
+
+#lista {
+    color: rgb(248, 207, 103);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#github {
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    transition: transform 1s ease-in-out;
+}
+
+#github:hover {
+    transform: rotate(360deg);
+}
